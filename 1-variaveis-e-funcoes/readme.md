@@ -56,6 +56,29 @@ Exemplo de declaração de variáveis:
 
 Variáveis são usadas para armazenar dados durante a execução do programa, permitindo manipulação dos valores.
 
+**Diferença entre `var`, `let` e `const`**  
+
+No JavaScript, `var`, `let` e `const` são usadas para declarar variáveis, mas possuem diferenças importantes:  
+
+- **`var`** → Tem **escopo de função**, pode ser **redeclarada** e **reatribuída**, mas **não respeita escopo de bloco**, podendo causar erros. **(Evitar uso)**.  
+- **`let`** → Tem **escopo de bloco**, **não pode ser redeclarada**, mas **pode ser reatribuída**. É ideal para variáveis mutáveis.  
+- **`const`** → Tem **escopo de bloco**, **não pode ser redeclarada** nem **reatribuída**, e deve ser inicializada na declaração. Ideal para valores fixos.  
+
+```javascript
+// var: escopo de função, pode ser redeclarada
+var nome = "Gabriel";
+var nome = "João"; // ✅ Permitido
+
+// let: escopo de bloco, pode ser reatribuída
+let idade = 25;
+idade = 26; // ✅ Permitido
+// let idade = 30; ❌ Erro: não pode ser redeclarada
+
+// const: escopo de bloco, não pode ser reatribuída
+const PI = 3.1415;
+// PI = 3.14; ❌ Erro: constante não pode ser alterada
+```
+
 ## VII. Comentários
 Comentários são usados para documentar o código e são ignorados pelo interpretador JavaScript. Existem dois tipos de comentários:
 
@@ -102,7 +125,9 @@ Fazer um programa com as variáveis nome e sobrenome. A variável nome deverá s
 **Dica**: use a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 GabrielFrois
+```
 
 ## Exercício 6:
 Fazer um programa com as variáveis nome e idade. A variável nome deverá ser iniciada com o seu 1º nome e variável idade com a sua idade. Na sequência o seu programa deverá imprimir no console o resultado da soma das variáveis nome e idade. Lembre-se que o nome é string e idade é number.
@@ -110,7 +135,9 @@ Fazer um programa com as variáveis nome e idade. A variável nome deverá ser i
 **Dica**: use a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Gabriel23
+```
 
 ## Exercício 7:
 Fazer um programa que pede para o usuário entrar com o seu 1º nome e na sequência o programa imprime no console o nome fornecido pelo usuário.
@@ -118,8 +145,10 @@ Fazer um programa que pede para o usuário entrar com o seu 1º nome e na sequê
 **Dica**: use a função prompt para ler o teclado e console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Entre com o seu nome: Gabriel  
 Gabriel
+```
 
 ## Exercício 8:
 Fazer um programa que pede para o usuário entrar com a idade e na sequência o programa imprime o dobro da idade fornecida pelo usuário.
@@ -127,17 +156,20 @@ Fazer um programa que pede para o usuário entrar com a idade e na sequência o 
 **Dica**: use a função prompt para ler o teclado, a função parseInt para converter de string para number, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Entre com a sua idade: 23  
 46
-
+```
 ## Exercício 9:
 Fazer um programa que pede para o usuário entrar com o peso e na sequência o programa imprime a metade do peso fornecido pelo usuário.
 
 **Dica**: use a função prompt para ler o teclado, a função parseFloat para converter de string para number, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Entre com o seu peso: 60  
 30
+```
 
 ## Exercício 10:
 O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Fazer um programa que pede para o usuário entrar com o peso (em Kg) e altura (em metros) e na sequência o programa imprime no console o IMC.
@@ -145,9 +177,11 @@ O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Faze
 **Dica**: use a função prompt para ler o teclado, a função parseFloat para converter de string para number, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Entre com o peso (Kg): 71.5  
 Entre com a altura (m): 1.72  
 24.168469442942133
+```
 
 ## Exercício 11:
 Fazer um programa que pede para o usuário entrar com três números reais. Sendo um número de cada vez. Após fornecer os três números o programa deve imprimir na tela o valor médio.
@@ -155,7 +189,9 @@ Fazer um programa que pede para o usuário entrar com três números reais. Send
 **Dica**: use a função prompt para ler o teclado, a função parseFloat para converter de string para number, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída**:  
+```
 Entre com o 1o número: 8.5  
 Entre com o 2o número: 1.5  
 Entre com o 3o número: 6.5  
 5.5
+```
