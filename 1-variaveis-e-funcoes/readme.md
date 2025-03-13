@@ -104,20 +104,29 @@ Fazer um programa que imprime no console o texto Boa noite!.
 
 **Dica**: use a função console.log.
 
+**[Resolução](exercicios/src/um.js)**
+
+
 ## Exercício 2:
 Fazer um programa que imprime no console o número inteiro 100.
 
 **Dica**: use a função console.log.
+
+**[Resolução](exercicios/src/dois.js)**
 
 ## Exercício 3:
 Fazer um programa que imprime no console o valor booleano true.
 
 **Dica**: use a função console.log.
 
+**[Resolução](exercicios/src/tres.js)**
+
 ## Exercício 4:
 Fazer um programa com as variáveis x e y. A variável x deverá ser iniciada com o valor 10 e variável y com o valor 20. Na sequência o seu programa deverá imprimir no console o resultado da soma das variáveis x e y.
 
 **Dica**: use a função console.log para imprimir o resultado.
+
+**[Resolução](exercicios/src/quatro.js)**
 
 ## Exercício 5:
 Fazer um programa com as variáveis nome e sobrenome. A variável nome deverá ser iniciada com o seu 1º nome e variável sobrenome com o seu último sobrenome. Na sequência o seu programa deverá imprimir no console o resultado da soma dos conteúdos das variáveis nome e sobrenome.
@@ -129,6 +138,8 @@ Fazer um programa com as variáveis nome e sobrenome. A variável nome deverá s
 GabrielFrois
 ```
 
+**[Resolução](exercicios/src/cinco.js)**
+
 ## Exercício 6:
 Fazer um programa com as variáveis nome e idade. A variável nome deverá ser iniciada com o seu 1º nome e variável idade com a sua idade. Na sequência o seu programa deverá imprimir no console o resultado da soma das variáveis nome e idade. Lembre-se que o nome é string e idade é number.
 
@@ -138,6 +149,8 @@ Fazer um programa com as variáveis nome e idade. A variável nome deverá ser i
 ```
 Gabriel23
 ```
+
+**[Resolução](exercicios/src/seis.js)**
 
 ## Exercício 7:
 Fazer um programa que pede para o usuário entrar com o seu 1º nome e na sequência o programa imprime no console o nome fornecido pelo usuário.
@@ -150,6 +163,8 @@ Entre com o seu nome: Gabriel
 Gabriel
 ```
 
+**[Resolução](exercicios/src/sete.js)**
+
 ## Exercício 8:
 Fazer um programa que pede para o usuário entrar com a idade e na sequência o programa imprime o dobro da idade fornecida pelo usuário.
 
@@ -160,6 +175,9 @@ Fazer um programa que pede para o usuário entrar com a idade e na sequência o 
 Entre com a sua idade: 23  
 46
 ```
+
+**[Resolução](exercicios/src/oito.js)**
+
 ## Exercício 9:
 Fazer um programa que pede para o usuário entrar com o peso e na sequência o programa imprime a metade do peso fornecido pelo usuário.
 
@@ -170,6 +188,8 @@ Fazer um programa que pede para o usuário entrar com o peso e na sequência o p
 Entre com o seu peso: 60  
 30
 ```
+
+**[Resolução](exercicios/src/nove.js)**
 
 ## Exercício 10:
 O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Fazer um programa que pede para o usuário entrar com o peso (em Kg) e altura (em metros) e na sequência o programa imprime no console o IMC.
@@ -183,6 +203,8 @@ Entre com a altura (m): 1.72
 24.168469442942133
 ```
 
+**[Resolução](exercicios/src/dez.js)**
+
 ## Exercício 11:
 Fazer um programa que pede para o usuário entrar com três números reais. Sendo um número de cada vez. Após fornecer os três números o programa deve imprimir na tela o valor médio.
 
@@ -195,3 +217,5 @@ Entre com o 2o número: 1.5
 Entre com o 3o número: 6.5  
 5.5
 ```
+
+**[Resolução](exercicios/src/onze.js)**
