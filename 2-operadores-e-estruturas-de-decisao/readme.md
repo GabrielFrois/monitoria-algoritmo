@@ -133,11 +133,146 @@ Para fazer os exercícios recomenda-se o uso da interface de programação onlin
 - Nos exercícios 7 a 9 trabalharemos a estrutura de decisão aninhada.
 - No exercício 10 trabalharemos a estrutura condicional switch.
 
-Exercício 1: Fazer um programa que pede para o usuário entrar com um número inteiro e na sequência o programa imprime o resto da divisão desse número por 2.
+### Exercício 1: 
+Fazer um programa que pede para o usuário entrar com um número inteiro e na sequência o programa imprime o resto da divisão desse número por 2.
 **Dica:** use a função prompt para ler o teclado, a função parseInt para converter de string para inteiro, e a função console.log para imprimir o resultado.
 
-**Exemplo de Saída**:  
+**Exemplo de Saída:**  
 ```
 Entre com um número inteiro:> 11
 Resto: 1
+```
+
+### Exercício 2: 
+Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime o resto da divisão do primeiro número pelo segundo.
+**Dica:** use a função prompt para ler o teclado, a função parseInt para converter de string para inteiro, e a função console.log para imprimir o resultado.
+
+**Exemplo de Saída:**
+```
+Entre com um número inteiro:> 12
+Entre com um número inteiro:> 5
+Resto: 2
+```
+
+### Exercício 3: 
+Fazer um programa que pede para o usuário entrar um número inteiro e na sequência o programa imprime na tela se o número é par ou ímpar.
+**Dica:** um número é par se o resto da divisão dele por 2 é zero.
+
+**Exemplo de Saída:**
+```
+Entre com um número inteiro:> 11
+11 é ímpar
+Fim do Programa
+```
+
+### Exercício 4: 
+Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela se o 1º número é múltiplo do 2º número.
+**Dica:** um número é múltiplo do outro se o resto da divisão deles é zero.
+
+**Exemplo de Saída:**
+```
+Entre com um número inteiro:> 12
+Entre com um número inteiro:> 5
+12 não é múltiplo de 5
+Fim do Programa
+```
+
+### Exercício 5: 
+Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela o maior valor.
+
+**Exemplo de Saída:**
+```
+Entre com um número inteiro:> 2
+Entre com um número inteiro:> 5
+2 é menor que 5
+Fim do Programa
+```
+
+### Exercício 6: 
+Fazer um programa que pede para o usuário entrar com a idade dele e, na sequência, o programa indica se ele é de menor ou adulto.
+
+**Exemplo de Saída:**
+```
+Entre com a idade:> 15
+De menor
+Fim do Programa
+```
+
+### Exercício 7: 
+Fazer um programa que pede para o usuário entrar com três números, um de cada vez, e na sequência o programa imprime o maior valor fornecido pelo usuário.
+
+**Exemplo de Saída:**
+```
+Entre com um número:> 1
+Entre com um número:> 3
+Entre com um número:> 2
+Maior: 3
+Fim do Programa
+```
+
+### Exercício 8: 
+Fazer um programa que pede para o usuário fornecer a temperatura corporal e, na sequência, o programa imprime a classificação da temperatura de acordo com a tabela a seguir.
+
+**Temperatura do Corpo Humano**
+| Temperatura    | Condição    |
+|----------------|-------------|
+| 41° ou mais    | Hipertemia  |
+| 39.6° - 41°    | Febre Alta  |
+| 37.8° - 39.5°  | Febre       |
+| 35.1° - 37.7°  | Normal      |
+| 35° ou menos   | Hipotermia  |
+
+**Exemplo de Saída:**
+```
+Entre com a temperatura corporal:> 37.2
+Normal
+Fim do Programa
+```
+
+### Exercício 9: 
+O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Fazer um programa que pede para o usuário entrar com o peso (em Kg) e altura (em metros) e, na sequência, o programa imprime na tela a classificação do IMC de acordo com a classificação a seguir.
+
+| IMC    | Classificação    |
+|----------------|-------------|
+| Abaixo de 18,5  | Abaixo do peso  |
+| Entre 18,6 e 24,9  | Peso ideal  |
+| Entre 25,0 e 29,9  | Levemente acima do peso  |
+| Entre 30,0 e 34,9  | Obesidade grau I  |
+| Entre 35,0 e 39,9  | Obesidade grau II  |
+| Acima de 40  | Obesidade III  |
+
+**Exemplo de Saída:**
+```
+Entre com o peso (Kg):> 71.5
+Entre com a altura (m):> 1.7
+Peso ideal
+Fim do Programa
+```
+
+### Exercício 10: 
+Fazer um programa que pede para o usuário fornecer o nome da fruta (todas as letras minúsculas) e, na sequência, o programa informa o valor do suco de acordo com a tabela a seguir.
+O programa deverá exibir “Não temos esse suco”, caso o usuário forneça um nome de fruta inexistente na tabela.
+
+| Sucos    | Preços    |
+|----------------|-------------|
+| Suco de Laranja  | R$3,50  |
+| Suco de Limão  | R$3,00  |
+| Suco de Acerola  | R$3,50  |
+| Suco de Manga  | R$4,00  |
+| Suco de Melancia  | R$4,00  |
+| Suco de Morango  | R$5,00  |
+| Suco de Maracujá  | R$4,50  |
+| Açaí  | R$6,00  |
+
+**Exemplo de Saída:**
+```
+Entre com o nome da fruta:> manga
+R$4,00
+Fim do Programa
+```
+**Outro Exemplo:**
+```
+Entre com o nome da fruta:> abacaxi
+Não temos esse suco
+Fim do Programa
 ```
