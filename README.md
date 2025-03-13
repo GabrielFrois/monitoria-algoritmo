@@ -1,9 +1,9 @@
 # Monitoria - Algoritmos e Lógica de Programação
 
 Neste repositório você encontrará:  
-**Resumos das aulas** com os principais conceitos abordados.  
-**Exemplos de código** para facilitar o entendimento.  
-**Resolução de exercícios** para praticar a lógica de programação.  
+- Resumos das aulas com os principais conceitos abordados;  
+- Exemplos de código** para facilitar o entendimento;  
+- Resolução de exercícios** para praticar a lógica de programação.  
 
 ## 1. Variáveis e Funções  
 
