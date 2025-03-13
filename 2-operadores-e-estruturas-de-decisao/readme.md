@@ -134,7 +134,8 @@ Para fazer os exercícios recomenda-se o uso da interface de programação onlin
 - No exercício 10 trabalharemos a estrutura condicional switch.
 
 ### Exercício 1: 
-Fazer um programa que pede para o usuário entrar com um número inteiro e na sequência o programa imprime o resto da divisão desse número por 2.
+Fazer um programa que pede para o usuário entrar com um número inteiro e na sequência o programa imprime o resto da divisão desse número por 2.  
+
 **Dica:** use a função prompt para ler o teclado, a função parseInt para converter de string para inteiro, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída:**  
@@ -143,8 +144,11 @@ Entre com um número inteiro:> 11
 Resto: 1
 ```
 
+**[Resolução](exercicios/src/um.js)**
+
 ### Exercício 2: 
-Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime o resto da divisão do primeiro número pelo segundo.
+Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime o resto da divisão do primeiro número pelo segundo.  
+
 **Dica:** use a função prompt para ler o teclado, a função parseInt para converter de string para inteiro, e a função console.log para imprimir o resultado.
 
 **Exemplo de Saída:**
@@ -154,8 +158,11 @@ Entre com um número inteiro:> 5
 Resto: 2
 ```
 
+**[Resolução](exercicios/src/dois.js)**
+
 ### Exercício 3: 
-Fazer um programa que pede para o usuário entrar um número inteiro e na sequência o programa imprime na tela se o número é par ou ímpar.
+Fazer um programa que pede para o usuário entrar um número inteiro e na sequência o programa imprime na tela se o número é par ou ímpar.  
+
 **Dica:** um número é par se o resto da divisão dele por 2 é zero.
 
 **Exemplo de Saída:**
@@ -165,8 +172,11 @@ Entre com um número inteiro:> 11
 Fim do Programa
 ```
 
+**[Resolução](exercicios/src/tres.js)**
+
 ### Exercício 4: 
-Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela se o 1º número é múltiplo do 2º número.
+Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela se o 1º número é múltiplo do 2º número.  
+
 **Dica:** um número é múltiplo do outro se o resto da divisão deles é zero.
 
 **Exemplo de Saída:**
@@ -176,6 +186,8 @@ Entre com um número inteiro:> 5
 12 não é múltiplo de 5
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/quatro.js)**
 
 ### Exercício 5: 
 Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela o maior valor.
@@ -187,6 +199,8 @@ Entre com um número inteiro:> 5
 2 é menor que 5
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/cinco.js)**
 
 ### Exercício 6: 
 Fazer um programa que pede para o usuário entrar com a idade dele e, na sequência, o programa indica se ele é de menor ou adulto.
