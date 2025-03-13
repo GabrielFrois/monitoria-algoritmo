@@ -106,7 +106,6 @@ Fazer um programa que imprime no console o texto Boa noite!.
 
 **[Resolução](exercicios/src/um.js)**
 
-
 ## Exercício 2:
 Fazer um programa que imprime no console o número inteiro 100.
 
