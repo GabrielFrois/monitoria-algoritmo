@@ -153,8 +153,8 @@ Fazer um programa que pede para o usuário entrar com dois números inteiros, um
 
 **Exemplo de Saída:**
 ```
-Entre com um número inteiro:> 12
-Entre com um número inteiro:> 5
+Entre com um número inteiro: 12
+Entre com um número inteiro: 5
 Resto: 2
 ```
 
@@ -167,7 +167,7 @@ Fazer um programa que pede para o usuário entrar um número inteiro e na sequê
 
 **Exemplo de Saída:**
 ```
-Entre com um número inteiro:> 11
+Entre com um número inteiro: 11
 11 é ímpar
 Fim do Programa
 ```
@@ -181,8 +181,8 @@ Fazer um programa que pede para o usuário entrar com dois números inteiros, um
 
 **Exemplo de Saída:**
 ```
-Entre com um número inteiro:> 12
-Entre com um número inteiro:> 5
+Entre com um número inteiro: 12
+Entre com um número inteiro: 5
 12 não é múltiplo de 5
 Fim do Programa
 ```
@@ -194,8 +194,8 @@ Fazer um programa que pede para o usuário entrar com dois números inteiros, um
 
 **Exemplo de Saída:**
 ```
-Entre com um número inteiro:> 2
-Entre com um número inteiro:> 5
+Entre com um número inteiro: 2
+Entre com um número inteiro: 5
 2 é menor que 5
 Fim do Programa
 ```
@@ -207,22 +207,26 @@ Fazer um programa que pede para o usuário entrar com a idade dele e, na sequên
 
 **Exemplo de Saída:**
 ```
-Entre com a idade:> 15
+Entre com a idade: 15
 De menor
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/seis.js)**
 
 ### Exercício 7: 
 Fazer um programa que pede para o usuário entrar com três números, um de cada vez, e na sequência o programa imprime o maior valor fornecido pelo usuário.
 
 **Exemplo de Saída:**
 ```
-Entre com um número:> 1
-Entre com um número:> 3
-Entre com um número:> 2
+Entre com um número: 1
+Entre com um número: 3
+Entre com um número: 2
 Maior: 3
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/sete.js)**
 
 ### Exercício 8: 
 Fazer um programa que pede para o usuário fornecer a temperatura corporal e, na sequência, o programa imprime a classificação da temperatura de acordo com a tabela a seguir.
@@ -238,10 +242,12 @@ Fazer um programa que pede para o usuário fornecer a temperatura corporal e, na
 
 **Exemplo de Saída:**
 ```
-Entre com a temperatura corporal:> 37.2
+Entre com a temperatura corporal: 37.2
 Normal
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/oito.js)**
 
 ### Exercício 9: 
 O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Fazer um programa que pede para o usuário entrar com o peso (em Kg) e altura (em metros) e, na sequência, o programa imprime na tela a classificação do IMC de acordo com a classificação a seguir.
@@ -257,11 +263,13 @@ O IMC (Índice de Massa Corporal) é calculado usando peso/(altura*altura). Faze
 
 **Exemplo de Saída:**
 ```
-Entre com o peso (Kg):> 71.5
-Entre com a altura (m):> 1.7
+Entre com o peso (Kg): 71.5
+Entre com a altura (m): 1.7
 Peso ideal
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/nove.js)**
 
 ### Exercício 10: 
 Fazer um programa que pede para o usuário fornecer o nome da fruta (todas as letras minúsculas) e, na sequência, o programa informa o valor do suco de acordo com a tabela a seguir.
@@ -269,24 +277,26 @@ O programa deverá exibir “Não temos esse suco”, caso o usuário forneça u
 
 | Sucos    | Preços    |
 |----------------|-------------|
-| Suco de Laranja  | R$3,50  |
-| Suco de Limão  | R$3,00  |
-| Suco de Acerola  | R$3,50  |
-| Suco de Manga  | R$4,00  |
-| Suco de Melancia  | R$4,00  |
-| Suco de Morango  | R$5,00  |
-| Suco de Maracujá  | R$4,50  |
-| Açaí  | R$6,00  |
+| Laranja  | R$3,50  |
+| Limão  | R$3,00  |
+| Acerola  | R$3,50  |
+| Manga  | R$4,00  |
+| Melancia  | R$4,00  |
+| Morango  | R$5,00  |
+| Maracujá  | R$4,50  |
+| Açai  | R$6,00  |
 
 **Exemplo de Saída:**
 ```
-Entre com o nome da fruta:> manga
+Entre com o nome da fruta: manga
 R$4,00
 Fim do Programa
 ```
 **Outro Exemplo:**
 ```
-Entre com o nome da fruta:> abacaxi
+Entre com o nome da fruta: abacaxi
 Não temos esse suco
 Fim do Programa
 ```
+
+**[Resolução](exercicios/src/dez.js)**
