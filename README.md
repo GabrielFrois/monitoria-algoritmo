@@ -22,3 +22,7 @@ Neste repositório você encontrará:
 - Operadores lógicos;
 - Estruturas de decisão if else;
 - Estrutura condicional switch.
+
+## 3. Estrutura de Repetição While  
+- Repetições;
+- Estrutura de repetição while.
