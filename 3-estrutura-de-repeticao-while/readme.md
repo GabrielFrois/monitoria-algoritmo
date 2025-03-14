@@ -65,7 +65,6 @@ while (cont <= 5) {
 ```
 
 ## III. Exercícios  
-Veja o vídeo se tiver dúvidas nos exercícios: https://youtu.be/EUQNVSIFrxA
 
 ### Exercício 1:  
 Fazer um programa que imprime na tela os números inteiros no intervalo [10,20].  
