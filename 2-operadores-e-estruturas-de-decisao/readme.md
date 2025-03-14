@@ -124,8 +124,6 @@ switch (dia) {
 ```
 
 ## VI. Exercícios
-Veja o vídeo se tiver dúvidas nos exercícios: https://youtu.be/62e9bLE59WM
-
 Para fazer os exercícios recomenda-se o uso da interface de programação online https://replit.com/ por eles requerem entrada do usuário.
 
 - Nos exercícios 1 e 2 trabalharemos o operador de módulo (resto da divisão).
