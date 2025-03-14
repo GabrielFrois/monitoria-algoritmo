@@ -88,7 +88,10 @@ Comentários são usados para documentar o código e são ignorados pelo interpr
 Comentários ajudam os programadores a entenderem o código, sem afetar a execução do programa.
 
 ## VIII. Exercícios 
-Para fazer os exercícios 1 a 6 crie um projeto de nome aula1 no VS Code assim como é mostrado a seguir. Cada programa deverá estar num arquivo separado da pasta src. Crie uma propriedade para cada exercício na propriedade scripts do arquivo package.json. Para rodar o arquivo use: npm run propriedade, onde propriedade será um, dois, tres (sem acento), quatro, cinco ou seis.
+Para fazer os exercícios 1 a 6 crie um projeto de nome aula1 no VS Code assim como é mostrado a seguir.  
+Cada programa deverá estar num arquivo separado da pasta src.  
+Crie uma propriedade para cada exercício na propriedade scripts do arquivo package.json.  
+Para rodar o arquivo use: npm run propriedade, onde propriedade será um, dois, tres (sem acento), quatro, cinco ou seis.  
 
 Um programa se caracteriza por entrada de dados, processamento (transformação de dados) e saída de dados.  
 
