@@ -53,17 +53,46 @@ console.log(5 !== "5"); // true (tipos diferentes)
 ## III. Operadores Lógicos
 Os operadores lógicos permitem combinações de expressões booleanas:  
 
-- `&&` (E lógico) → true se todas as expressões forem verdadeiras.
-- `||` (OU lógico) → true se pelo menos uma expressão for verdadeira.
-- `!` (NÃO lógico) → Inverte o valor booleano.
-
+- `&&` (E lógico) → true se todas as expressões forem verdadeiras.  
+**O código:***
 ```javascript
-let idade = 20;
-let possuiCNH = true;
-
-console.log(idade >= 18 && possuiCNH); // true (maior de idade e tem CNH)
-console.log(idade >= 18 || possuiCNH); // true (pelo menos uma condição é verdadeira)
-console.log(!(idade >= 18)); // false (inverte o valor lógico)
+console.log("true && true", true && true)
+console.log("true && false", true && false)
+console.log("false && true", false && true)
+console.log("false && false), false && false)
+```
+**Retorna:**
+```
+true && true true
+true && false false
+false && true false
+false && false false
+```
+- `||` (OU lógico) → true se pelo menos uma expressão for verdadeira.  
+**O código:***
+```javascript
+console.log("true || true", true || true)
+console.log("true || false", true || false)
+console.log("false || true", false || true)
+console.log("false || false), false || false)
+```
+**Retorna:**
+```
+true || true true
+true || false true
+false || true true
+false || false false
+```
+- `!` (NÃO lógico) → Inverte o valor booleano.  
+**O código:***
+```javascript
+console.log("! true", ! true)
+console.log("! false", ! false)
+```
+**Retorna:**
+```
+! true false
+! false true
 ```
 
 ## IV. Estruturas de Decisão
@@ -72,27 +101,37 @@ As estruturas de decisão controlam o fluxo de um programa com base em condiçõ
 ### Condicional `if...else`
 Executa um bloco de código se a condição for verdadeira.  
 ```javascript
-let temperatura = 30;
+a = 2
+b = 5
 
-if (temperatura > 25) {
-    console.log("Está quente!");
-} else {
-    console.log("Está agradável.");
+if(a < b){
+    console.log("a é menor que b")
 }
+else {
+    console.log("a não é menor que b")
+}
+console.log("Fim do programa")
 ```
 
 ### Condicional `if...else if...else`
 Permite avaliar múltiplas condições.  
 ```javascript
-let nota = 85;
+idade = prompt("Entre com a idade:")
+//converte de string para inteiro
+idade = parseInt(idade)
 
-if (nota >= 90) {
-    console.log("Aprovado com excelência!");
-} else if (nota >= 70) {
-    console.log("Aprovado.");
-} else {
-    console.log("Reprovado.");
+if(idade < 10){
+    console.log("Criança)
 }
+else{
+    if(idade < 18){
+        console.log(Adolescente")
+    }
+    else{
+        console.log("Adulto")
+    }
+}
+console.log("Fim do programa")
 ```
 
 ### Operador Ternário
@@ -106,20 +145,23 @@ console.log(status);
 ## V. Estrutura Condicional `switch`
 Útil para testar um valor contra múltiplas possibilidades.  
 ```javascript
-let dia = 3;
+dia = "domingo";
 
 switch (dia) {
-    case 1:
-        console.log("Domingo");
+    case "domingo":
+        console.log("Final de semana");
         break;
-    case 2:
-        console.log("Segunda-feira");
+    case "segunda":
+        console.log("trabalho");
         break;
-    case 3:
-        console.log("Terça-feira");
+    case "terça":
+        console.log("trabalho");
         break;
-    default:
-        console.log("Dia inválido");
+    case "quarta":
+        console.log("trabalho");
+        break;
+    defalt:
+        console.log("dia desconhecido")
 }
 ```
 
