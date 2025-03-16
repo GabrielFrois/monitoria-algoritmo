@@ -125,7 +125,7 @@ if(idade < 10){
 }
 else{
     if(idade < 18){
-        console.log(Adolescente")
+        console.log("Adolescente")
     }
     else{
         console.log("Adulto")
