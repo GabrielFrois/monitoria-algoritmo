@@ -71,7 +71,7 @@ Fazer um programa que imprime na tela os números inteiros no intervalo [10,20].
 
 **Dica:** use a estrutura de repetição while.  
 
-**Exemplo de Saída:
+**Exemplo de Saída:**
 ```
 10
 11
