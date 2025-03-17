@@ -23,3 +23,13 @@ Neste repositório você encontrará resumos de aulas, exemplos práticos e exer
 ## 3. Estrutura de Repetição While  
 - Repetições;
 - Estrutura de repetição while.
+
+## 4. Manipulação de String  
+-  Tipo de dado string;
+-  Acessar os caracteres da string;
+-  Percorrer os caracteres da string.
+
+## 5. Arrays
+-  Tipo de dado Array;
+- Array bidimensional;
+- Percorrer os elementos do array.
