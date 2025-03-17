@@ -122,6 +122,8 @@ Entre com o nome: Ana Maria
 Quantidade: 9
 ```
 
+**[Resolução](exercicios/src/um.js)**
+
 ### Exercício 2:  
 Fazer um programa que pede para o usuário entrar com um nome e, na sequência, o programa imprime na tela o 1º caractere desse nome.  
 
@@ -132,6 +134,8 @@ Fazer um programa que pede para o usuário entrar com um nome e, na sequência, 
 Entre com o nome: Pedro Augusto
 Primeiro: P
 ```
+
+**[Resolução](exercicios/src/dois.js)**
 
 ### Exercício 3:  
 Fazer um programa que pede para o usuário entrar com um nome e, na sequência, o programa imprime na tela o último caractere desse nome.  
@@ -144,6 +148,8 @@ Entre com o nome: Wesley
 Último: y
 ```
 
+**[Resolução](exercicios/src/tres.js)**
+
 ### Exercício 4: 
 Fazer um programa que pede para o usuário entrar com um nome e, na sequência, o programa imprime na tela os caracteres na ordem invertida.  
 
@@ -152,12 +158,14 @@ Fazer um programa que pede para o usuário entrar com um nome e, na sequência, 
 **Exemplo de saída:**
 ```
 Entre com o nome: Bruna
-B
-r
-u
-n
 a
+n
+u
+r
+B
 ```
+
+**[Resolução](exercicios/src/quatro.js)**
 
 ### Exercício 5:  
 Fazer um programa que pede para o usuário entrar com um nome e, na sequência, o programa imprime na tela os caracteres que estão em posições pares.  
@@ -174,3 +182,5 @@ M
 u
 a
 ```
+
+**[Resolução](exercicios/src/cinco.js)**
