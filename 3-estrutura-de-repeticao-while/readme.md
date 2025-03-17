@@ -86,6 +86,8 @@ Fazer um programa que imprime na tela os números inteiros no intervalo [10,20].
 20
 ```
 
+**[Resolução](exercicios/src/um.js)**
+
 ### Exercício 2:  
 Fazer um programa que pede para o usuário entrar com dois números inteiros, um de cada vez, e na sequência o programa imprime na tela todos os números nesse intervalo.
 
@@ -104,6 +106,8 @@ Entre com o maior valor: 15
 14
 15
 ```
+
+**[Resolução](exercicios/src/dois.js)**
 
 ### Exercício 3:  
 Alterar o Exercício 2 para o programa aceitar valores em qualquer ordem fornecida pelo usuário. 
@@ -124,6 +128,8 @@ Entre com um valor: 8
 15
 ```
 
+**[Resolução](exercicios/src/tres.js)**
+
 ### Exercício 4:  
 Alterar o programa do Exercício 3 para imprimir na tela o somatório dos números no intervalo fornecido pelo usuário.
 
@@ -135,6 +141,8 @@ Entre com um valor: 11
 Entre com um valor: 8
 Somatório: 38
 ```
+
+**[Resolução](exercicios/src/quatro.js)**
 
 ### Exercício 5:  
 Fazer um programa que pede para o usuário entrar com cinco números, um de cada vez. Use a estrutura de repetição while. Após finalizar a entrada dos números, o programa deverá imprimir o somatório.
@@ -150,6 +158,8 @@ Entre com o número: 3
 Entre com o número: 6
 Somatório: 20
 ```
+
+**[Resolução](exercicios/src/cinco.js)**
 
 ### Exercício 6:  
 Fazer um programa que pede para o usuário entrar com cinco números, um de cada vez. Use a estrutura de repetição while.
@@ -167,6 +177,8 @@ Entre com o número: 4
 Menor valor: 2
 ```
 
+**[Resolução](exercicios/src/seis.js)**
+
 ### Exercício 7:  
 Alterar o programa do Exercício 6 para imprimir na tela o maior valor fornecido pelo usuário.
 
@@ -182,6 +194,8 @@ Entre com o número: 4
 Maior valor: 8
 ```
 
+**[Resolução](exercicios/src/sete.js)**
+
 ### Exercício 8:  
 Fazer um programa que pede para o usuário entrar com a senha. O programa deverá repetir a entrada enquanto o usuário não acertar a senha.  
 Considere que a senha é abc.
@@ -196,6 +210,8 @@ Entre com a senha: abc
 Acesso liberado
 ```
 
+**[Resolução](exercicios/src/oito.js)**
+
 ### Exercício 9:  
 Alterar o programa do Exercício 8 para limitar a três tentativas.
 
@@ -208,6 +224,8 @@ Senha incorreta
 Entre com a senha: xyz
 Excedeu o número de tentativas
 ```
+
+**[Resolução](exercicios/src/nove.js)**
 
 ### Exercício 10:  
 Fazer um programa que pede para o usuário entrar com números. A entrada de números deve ser interrompida quando a soma atingir o valor 20.
@@ -223,3 +241,5 @@ Entre com o número: 5
 Entre com o número: 6
 Somatório: 23
 ```
+
+**[Resolução](exercicios/src/dez.js)**
