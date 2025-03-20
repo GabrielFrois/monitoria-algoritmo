@@ -33,3 +33,10 @@ Neste repositório você encontrará resumos de aulas, exemplos práticos e exer
 -  Tipo de dado Array;
 - Array bidimensional;
 - Percorrer os elementos do array.
+
+## 6. Funções
+- Definição de função;
+- Função sem parâmetros e sem retorno;
+- Função que recebe um parâmetro e não tem retorno;
+- Função que recebe dois parâmetros e não tem retorno;
+- Função que recebe dois parâmetros e tem retorno.
